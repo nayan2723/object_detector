@@ -132,8 +132,8 @@ real-time-scene-description/
 1. **Clone the repository**
 
    ```bash
-   git clone <your-repo-url>.git
-   cd real-time-scene-description
+   git clone https://github.com/nayan2723/object_detector.git
+   cd object_detector
    ```
 
 2. **Create and activate a virtual environment (recommended)**
@@ -153,17 +153,13 @@ real-time-scene-description/
    pip install -r requirements.txt
    ```
 
-4. **Download YOLOv8n model weights**
+4. **Model weights (automatic)**
 
-   Download `yolov8n.pt` (the nano YOLOv8 model) from the official Ultralytics model zoo and place it in the `models/` directory:
+   The YOLOv8n model weights will be **automatically downloaded** on first run. If you prefer to download manually:
 
-   ```text
-   real-time-scene-description/
-   ├── models/
-   │   └── yolov8n.pt
-   ```
-
-   You can also obtain it programmatically (e.g., via `from ultralytics import YOLO; YOLO("yolov8n.pt")`), but for reproducibility we assume it is present on disk.
+   - The model will auto-download when you run the application
+   - Or manually: `python -c "from ultralytics import YOLO; YOLO('yolov8n.pt')"`
+   - Place it in `models/yolov8n.pt` if downloading manually
 
 ---
 

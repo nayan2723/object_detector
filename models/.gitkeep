@@ -1,0 +1,3 @@
+# This directory is for YOLOv8 model weights (.pt files)
+# Model weights will be auto-downloaded on first run if not present
+# or you can manually download from: https://github.com/ultralytics/ultralytics
