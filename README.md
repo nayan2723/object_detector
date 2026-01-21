@@ -1,9 +1,5 @@
 # Real-Time Scene Description System
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
-[![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)](https://opencv.org/)
-[![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-red.svg)](https://github.com/ultralytics/ultralytics)
-
 A production-ready Python system that processes live video (webcam or file), detects objects using YOLOv8, infers human–object interactions, and generates concise natural-language scene descriptions in real-time.
 
 ## 🎯 Overview
